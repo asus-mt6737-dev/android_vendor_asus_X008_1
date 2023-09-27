@@ -19,9 +19,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X008_1/proprietary/vendor/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_GR6737M_65_A_N_LWG_DSDS_COTSX_MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P79_2018_06_04_20_44_1_lwg_n:system/vendor/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_GR6737M_65_A_N_LWG_DSDS_COTSX_MOLY_LR9_W1444_MD_LWTG_MP_V110_5_P79_2018_06_04_20_44_1_lwg_n \
     vendor/asus/X008_1/proprietary/vendor/etc/mddb/mdm_layout_desc_1_lwg_n.dat:system/vendor/etc/mddb/mdm_layout_desc_1_lwg_n.dat \
     vendor/asus/X008_1/proprietary/vendor/lib/hw/camera.mt6737m.so:system/vendor/lib/hw/camera.mt6737m.so \
+    vendor/asus/X008_1/proprietary/vendor/lib/hw/gralloc.mt6737m.so:system/vendor/lib/hw/gralloc.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib/hw/memtrack.mt6737m.so:system/vendor/lib/hw/memtrack.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib/hw/radio.fm.mt6737m.so:system/vendor/lib/hw/radio.fm.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib/hw/sensors.mt6737m.so:system/vendor/lib/hw/sensors.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib64/hw/camera.mt6737m.so:system/vendor/lib64/hw/camera.mt6737m.so \
+    vendor/asus/X008_1/proprietary/vendor/lib64/hw/gralloc.mt6737m.so:system/vendor/lib64/hw/gralloc.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib64/hw/memtrack.mt6737m.so:system/vendor/lib64/hw/memtrack.mt6737m.so \
     vendor/asus/X008_1/proprietary/vendor/lib64/hw/sensors.mt6737m.so:system/vendor/lib64/hw/sensors.mt6737m.so
+
+PRODUCT_PACKAGES += \
+    libgralloc_extra

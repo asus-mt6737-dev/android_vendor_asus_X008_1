@@ -18,4 +18,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),X008_1)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libgralloc_extra
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgralloc_extra.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgralloc_extra.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif
